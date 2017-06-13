@@ -15,8 +15,8 @@ export const deleteReminder = (id) => {
     }
 };
 
-export const clearReminders = () => {
+export function clearReminders() {
     return {
         type: CLEAR_REMINDER
     }
-};
+}
